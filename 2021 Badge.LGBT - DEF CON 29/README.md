@@ -43,7 +43,7 @@ The display on the badge.lgbt is a 7×15 RGB matrix with a total of 105 RGB LEDs
 
 The board’s battery supply was… well ‘jankity” might be the best word for it. Early in the design phase, back when we thought this was going to be a “simple” badge, we decided in order to reduce component count and minimize risk, we’d use a CR123 battery and no voltage regulator. We’d had success with this design in the past on the [Allhallowtide badge](https://github.com/ohhaiakio/ElectronicBadges/tree/main/2019%20Allhallowtide), so we figured it could scale. A CR123 is a lithium battery that outputs 3.0V directly and consistently, so adding a current limiting resistor and good brown-out detection you can get very good performance with little risk of explosion and fire. Some risk, but hey it wouldn’t be DEF CON without risk!
 
-![(]Badge component guide](https://blinkylights.ninja/wp-content/uploads/2021/08/exp.png)
+![Badge component guide](https://blinkylights.ninja/wp-content/uploads/2021/08/exp.png)
 
 Other hardware of note are three right angle buttons for selecting patterns and controlling IR pairing. We also threw on a light sensor simply because we always do. Funny enough we didn’t end up using the light sensor, but may in the future.
 
