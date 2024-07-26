@@ -10,7 +10,9 @@ The original concept of the 2023 badge was to be a simple, slide on, lanyard han
 
 While I have been known to produce passable art in the past, I have never claimed to be an artist, as that whiteboard sketch should prove.  As the design evolved, we got an artist on Fiverr to produce a sketch of the hugging cephalopod and with it, the Booper was born!
 
-![final art design](media/booperart.bmp | height=400)
+
+
+<img src="media/booperart.png" height="400">
 
 The actual delivered artwork was slightly different, with the creature having a few additional tentacles.  However the net effect was to make it look very much like female genitalia, so with out revision budget gone, a quick photoshop removed that portion and resulted in a tighter, smaller design.
 
