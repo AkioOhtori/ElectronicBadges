@@ -20,7 +20,7 @@ However, if you've landed here you're probably not terribly interested in Queerc
 
 [2018 Queercon 15 - DEF CON 26](https://github.com/ohhaiakio/ElectronicBadges/tree/main/2018%20Queercon%2015%20-%20DEF%20CON%2026)
 
-[Allhallowtide 2019](https://github.com/ohhaiakio/ElectronicBadges/tree/main/2019%20Allhallowtide)
+[2019 Allhallowtide](https://github.com/ohhaiakio/ElectronicBadges/tree/main/2019%20Allhallowtide)
 
 [2019 Queercon 16 - DEF CON 27](https://github.com/ohhaiakio/ElectronicBadges/tree/main/2019%20Queercon%2016%20-%20DEF%20CON%2027)
 	
