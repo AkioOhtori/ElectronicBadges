@@ -12,7 +12,7 @@ While I have been known to produce passable art in the past, I have never claime
 
 
 
-<img src="media/booperart.png" height="400">
+<img src="media/booperart.bmp" height="400">
 
 The actual delivered artwork was slightly different, with the creature having a few additional tentacles.  However the net effect was to make it look very much like female genitalia, so with out revision budget gone, a quick photoshop removed that portion and resulted in a tighter, smaller design.
 
