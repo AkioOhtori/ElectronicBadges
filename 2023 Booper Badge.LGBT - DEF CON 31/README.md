@@ -1,6 +1,6 @@
 ![booper badge](media/PXL_20240726_015126983.jpg)
 
-﻿# 2023 Booper.Badge.LGBT - DEF CON 31
+ # 2023 Booper.Badge.LGBT - DEF CON 31
 
 While 2022 saw the return of the official Queercon badge, 2023 saw the return of organizational issues that prevented the creation of the same.  And, as appears to be our way, when there is no Queercon badge a Badge.LGBT rises to meet demand.
 
