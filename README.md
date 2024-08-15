@@ -29,3 +29,5 @@ However, if you've landed here you're probably not terribly interested in Queerc
 [2022 Queercon 18 - DEF CON 30](https://github.com/ohhaiakio/ElectronicBadges/tree/main/2022%20Queercon%2018%20-%20DEF%20CON%2030)
 	
 [2023 Booper Badge.LGBT - DEF CON 31](https://github.com/ohhaiakio/ElectronicBadges/tree/main/2023%20Booper%20Badge.LGBT%20-%20DEF%20CON%2031)
+
+[2024 Queercon 20 - DEF CON 22](https://github.com/ohhaiakio/ElectronicBadges/tree/main/2024%20Queercon%2020%20-%20DEF%20CON%2032)
