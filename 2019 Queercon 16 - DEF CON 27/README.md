@@ -1,4 +1,4 @@
-![Q and C badges](https://blinkylights.ninja/wp-content/uploads/2019/10/dsc_7783-edit.jpg)
+![Q and C badges](media/q_and_c.jpg)
 
 # 2019 Queercon 16 - DEF CON 27
 
@@ -46,7 +46,7 @@ The pillar were literal inflatable LED pillars co-created by Andrew H. and Thoma
 
 The primary, most “queercon-eque,” badge for 2019 was what we refer to as the Q badge.  This badge was designed to be the full-fat Queercon experience and we really went all out on it.  The Q featured a 2.9″ e-ink screen, custom membrane keypad, bluetooth, and all the usual LEDs.
 
-![Q badge](https://blinkylights.ninja/wp-content/uploads/2019/10/qcaa_2.jpg)
+![Q badge](media/qcaa_2.jpg)
 
 The real star of this show was the custom keypad we had made.  While I did the mechanical design, the wonderful Tara S. did the artwork to adorn it.  The keypad’s primary function was to allow users to choose an element that their badge was to work on and facilitate interaction with the screen.  Users could input their names, see who is around, choose and trade images, and create LED patterns.
 
@@ -58,7 +58,7 @@ Hardware this year was actually pretty simple.  The main processor was a TI CC26
 
 Learning our lesson from last year, this time we decided the “non-electronic” badges needed to be well… electronic.  After an initial feasibility analysis we determined we could create these “passes” for under the $3/unit target using a very limited number of components and off-shore manufacturing.  After the shape of the “Q” badge started to materialize as a Q, we knew we had to make the access pass look like a “C”.
 
-![C badges](https://blinkylights.ninja/wp-content/uploads/2019/10/qcaa.jpg)
+![C badges](media/qcaa.jpg)
 
 While “main” or Q badges are meant to be somewhat scarce, the access or C badges are meant to be available to everyone as a way to get in to parties, support Queercon, and facilitate interaction with other badge holders.
 
@@ -110,12 +110,12 @@ There were other little problems throughout, but overall we were really happy wi
 
 Overall we were really happy with how both badges, but especially the C badges, turned out.  The Q badges impressed visually and the C badges all but eliminated our “two tier” system of last year.
 
-![Badge Back](https://blinkylights.ninja/wp-content/uploads/2019/10/dsc_7787-edit.jpg)
+![Badge Back](media/back.jpg)
 
-![keypad back](https://blinkylights.ninja/wp-content/uploads/2019/10/qcaa_4.jpg)
+![keypad back](media/qcaa_4.jpg)
 
-![C badges](https://blinkylights.ninja/wp-content/uploads/2019/10/qcaa.jpg)
+![C badges](media/qcaa.jpg)
 
-![C badge back with schematic](https://blinkylights.ninja/wp-content/uploads/2019/10/dsc_7791-edit.jpg)
+![C badge back with schematic](media/cback.jpg)
 
-![Q and C badges](https://blinkylights.ninja/wp-content/uploads/2019/10/qcaa_12.jpg)
+![Q and C badges](media/qcaa_12.jpg)

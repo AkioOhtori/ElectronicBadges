@@ -2,7 +2,7 @@
 
 ## How did we get here?  Where am I?  _Who_ am I?
 
-Well... I can answer two of those questions. For the latter try `whoami` and maybe that'll help.  What were we talking about?  OH RIGHT!  Badges. I think we can all agree that 2020 was a hell of a year. On the long list of the many, many things we all lost, an in-person DEF CON was one of them. The Queercon badge team discussed doing a “safe mode” badge that could do all the usual Queercon things but from a distance. Ultimately, I decided that 2020 could be a year of rest. Too many years straight of doing badges and I needed a break. I didn’t want it to happen like this but I'll take the time off regardless.
+Well... I can answer two of those questions. For the latter try `whoami` and maybe that'll help. (I'll see myself out...) What were we talking about?  OH RIGHT!  Badges. I think we can all agree that 2020 was a hell of a year. On the long list of the many, many things we all lost, an in-person DEF CON was one of them. The Queercon badge team discussed doing a “safe mode” badge that could do all the usual Queercon things but from a distance. Ultimately, I decided that 2020 could be a year of rest. Too many years straight of doing badges and I needed a break. I didn’t want it to happen like this but I'll take the time off regardless.
 
 When 2021 came around, the badge team was refreshed and ready for the challenge. But… what kind of badge should we make? An in-person badge? Remote? Hybrid? There were problems with all of these approaches, not the least of which being Queercon badges aren’t known for being particularly robust or error free, so anything that we were sending out to people either needed to be bulletproof or very simple, preferably both. Keeping in mind this was January 2021, late in the game to be planning a badge, and for most people the idea of getting vaccinated was a distant dream. Queercon itself was unsure of what a Queercon would look like… and continued to waffle (not that we blame them) until we were well past the design cut off for a badge.
 
@@ -18,7 +18,7 @@ Now how, exactly, we went from “simple” and “low component count” to “
 
 After several iterations, the Badge.lgbt was born. An almost exact replica of a floppy disk, with a 7×15 RGB LED display, BLE, IrDa communications, and customizable stickers.
 
-![Badge with stickers](https://blinkylights.ninja/wp-content/uploads/2021/08/dsc_3927-rs-1.jpg)
+![Badge with stickers](media/dsc_3927-rs-1.jpg)
 
 ## Cast and Characters
 
@@ -35,7 +35,7 @@ Those are just our primary roles, mind you. Everyone helped on everything and it
 
 As stated above, the design is a call back to the 2014 Queercon badge, the 3.5″ floppy. The original Floppy had a 5×14 white LED matrix display with 1×5 columns of rainbow LEDs on either side, giving it a total display area of 5×16. Those LEDs were driven by five separate LED drivers positioned throughout the board. It also had an RF radio to detect other badges in the area and an IrDa transceiver to “pair” with other badges. Overall it was one of our most coveted designs, after perhaps 2016’s “Blooper” badge.
 
-![QC11 and BADGE.LGBT designs, side-by-side](https://blinkylights.ninja/wp-content/uploads/2021/08/dsc_0047.jpg)
+![QC11 and BADGE.LGBT designs, side-by-side](media/dsc_0047.jpg)
 
 For the 2021 rendition, the only commonality between was the shape and the IrDa transceiver. Everything else on the 2021 disk was new, different, and more complicated.
 
@@ -43,7 +43,7 @@ The display on the badge.lgbt is a 7×15 RGB matrix with a total of 105 RGB LEDs
 
 The board’s battery supply was… well ‘jankity” might be the best word for it. Early in the design phase, back when we thought this was going to be a “simple” badge, we decided in order to reduce component count and minimize risk, we’d use a CR123 battery and no voltage regulator. We’d had success with this design in the past on the [Allhallowtide badge](https://github.com/ohhaiakio/ElectronicBadges/tree/main/2019%20Allhallowtide), so we figured it could scale. A CR123 is a lithium battery that outputs 3.0V directly and consistently, so adding a current limiting resistor and good brown-out detection you can get very good performance with little risk of explosion and fire. Some risk, but hey it wouldn’t be DEF CON without risk!
 
-![Badge component guide](https://blinkylights.ninja/wp-content/uploads/2021/08/exp.png)
+![Badge component guide](media/exp.png)
 
 Other hardware of note are three right angle buttons for selecting patterns and controlling IR pairing. We also threw on a light sensor simply because we always do. Funny enough we didn’t end up using the light sensor, but may in the future.
 
@@ -83,9 +83,9 @@ However, even being careful with part selection wasn’t a bulletproof way of av
 This wasn’t the only problem with this LED controller either. While routing we noticed the consistent pinout went from RGB RGB to BGR BGR mid-package for no apparent reason. Ultimately this meant half the LEDs needed to be rotated 180 degrees in order for the badge to be routable in 2-layers. Sure, we could have increased to a 4-layer board and gone to via town, but I like the challenge of laying out an absurd number of traces in a very small area. 
 
 
-![LED Controller datasheet](https://blinkylights.ninja/wp-content/uploads/2021/08/image-1.png)
-![LED assembly guide](https://blinkylights.ninja/wp-content/uploads/2021/08/screenshot-2021-08-13-140549.jpg)
-![LED traces](https://blinkylights.ninja/wp-content/uploads/2021/08/image-3-1.png)
+![LED Controller datasheet](media/image-1.png)
+![LED assembly guide](media/screenshot-2021-08-13-140549.jpg)
+![LED traces](media/image-3-1.png)
 
 Last, but certainly not least, of bullshit from the LED controller there was the issue of documentation and example code. As mentioned, this is a fairly new part and, frankly, the documentation is garbage. The words “barely functional” come to mind and George was totally left hung out to dry by TI on this one. To pay almost $6 for a chip that almost doesn’t even work was upsetting to say the least. Unfortunately this will do little to shake George’s unwavering fanboyism to TI, but it will certainly make me question ever using a “new” chip in their lineup again.
 
@@ -93,7 +93,7 @@ Unfortunately, the chip shortage wasn’t the only COVID beast we had to defeat.
 
 The next issue came from the board house, which we’ve used many time in the past with good success. Unfortunately when producing the panels, they dropped the ball.
 
-![Shame on PCBWay](https://pbs.twimg.com/media/E6tiszTWQAM9xP8?format=png)
+![Shame on PCBWay](media/callout.png)
 
 Over and over and over.
 
@@ -101,7 +101,7 @@ Conversations with customer support went nowhere and eventaully I had to resort 
 
 Luckily the fab worked through the night and got them assembled at 5AM the Monday before DEF CON and in our hands that Tuesday. Huge shout out to PCBx for making it happen.
 
-![panelized PCBs](https://blinkylights.ninja/wp-content/uploads/2021/08/img_20210802_051825.jpg)
+![panelized PCBs](media/panels.jpg)
 
 Sadly, our problems were not over, not surprisingly. The PCBs had been paneled in such a way the buttons, which overhang the board, couldn’t be soldered on. Crap. So in the end that meant me hand soldering 255 buttons into the wee hours of the night the day before we flew out. In the grand scheme of things, not a big deal.
 
@@ -135,6 +135,6 @@ The challenges were many, but not unique to our process. Everyone had a hard tim
 
 ## Photos
 
-![](https://blinkylights.ninja/wp-content/uploads/2021/08/dsc_3933-rs.jpg)
-![](https://blinkylights.ninja/wp-content/uploads/2021/08/dsc_3947-rs.jpg)
-![](https://blinkylights.ninja/wp-content/uploads/2021/08/dsc_3945-rs.jpg)
+![](media/dsc_3933-rs.jpg)
+![](media/dsc_3947-rs.jpg)
+![](media/dsc_3945-rs.jpg)

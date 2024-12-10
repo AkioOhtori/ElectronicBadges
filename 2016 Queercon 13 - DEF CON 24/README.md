@@ -1,4 +1,4 @@
-![badge close up](https://blinkylights.ninja/wp-content/uploads/2016/08/qc20160018.jpg)
+![badge close up](media/qc20160018.jpg)
 
 # 2016 Queercon 13 - DEF CON 24
 
@@ -8,7 +8,7 @@ From these ideas, the Blooper gradually came into existence, and we’re quite p
 
 Front             |  Back
 :-------------------------:|:-------------------------:
-![](https://blinkylights.ninja/wp-content/uploads/2016/08/qc20160020.jpg)  |  ![](https://blinkylights.ninja/wp-content/uploads/2016/08/qc20160021.jpg)
+![](media/qc20160020.jpg)  |  ![](media/qc20160021.jpg)
 
 ## What is going on here?
 
@@ -22,13 +22,13 @@ The second unusual feature is the color.  Almost all PCBs are colored by somethi
 
 For those familiar with our past designs, the hardware on this one is going to look pretty familiar.  We opted for the same MSP430 with FRAM as last year, primarily for code portability reasons.  Also this chip is very full featured and easy to work with.  We did eliminate the external oscillator this year to reduce cost.
 
-![the EYES](https://blinkylights.ninja/wp-content/uploads/2016/08/qc20160019.jpg)
+![the EYES](media/qc20160019.jpg)
 
 The LED controller is also the same as last year, but, as per the Queercon usual, we wanted to go with lots of LEDs.  For QC11, we’d used LED drivers for every led.  This was inefficient, but low risk, easy to control, and not all that expensive.  This year, however, we decided to go with a more “traditional” single LED controller with FETs to switch between banks of LEDs.  This way we get all the features of a high end controller, but without all of cost of having to place 6 of them.  This created a bit of a learning curve, but ended up working just fine and saved a lot of space on the badge.  Additionally, our fab house isn’t know for being exceptionally good at LEDs, so a lot of hand holding was involved to get these together.
 
 The single color LEDs themselves are actually what we had speced for QC11, but ended up not being able to order as many as we needed at the time of fab.  This year, we brought them back out because (A) we think they look super cool and (B) they are, you guessed it, exceptionally inexpensive.  That said, I really dig the cool aqua color, even if it doesn’t really “go” with the badge.  There are thirty single color LEDs in each eye, with each LED being individually addressable.
 
-![traces are fun](https://blinkylights.ninja/wp-content/uploads/2016/08/qc20160017.jpg) 
+![traces are fun](media/qc20160017.jpg) 
 
 The RGB LEDs aren’t anything particularly special, but seemed to be a big hit.  They put out a lot of light in a small package, were very inexpensive, and pretty durable.  There are eight per badge, with two per tentacle with each element being individually addressable.
 
@@ -46,7 +46,7 @@ Since eyes have been mentioned, lets talk about them!  The eyes are used to make
 
 In addition to all the LED stuff, the badge has mating ports at the bottom.  These little buggers turned out to be quite fragile, but more on that later.  When two badges are connected at the tentacles they mate and each badge gets credit for the mating, and the badge gets VERY happy.  In addition to the mating, if both badges are on the same camo they can do a “super ink” which allows an inking to propagate much further than a normal one.  We are stronger together after all.
 
-![badges mating](https://blinkylights.ninja/wp-content/uploads/2016/08/qc20160015.jpg)
+![badges mating](media/qc20160015.jpg)
 
 We intended to have a station that showed all of these stats and also dispensed human hats, but it broke in transit, a mistake was made during repair, and all of the magic smoke was let out.
 
@@ -62,11 +62,11 @@ The Handler hats are a little different.  They’re simply a 555 timer driving a
 
 Human hats were supposed to be a special give out for getting various badge achievements.  They don’t actually do anything, but they do provide a breakout for the power and ground from the badge and provide space for the user to place their own electronics.  Use at your own risk!
 
-![badges with hats](https://blinkylights.ninja/wp-content/uploads/2016/08/2016august08_0652.jpg)
+![badges with hats](media/2016august08_0652.jpg)
 
 In addition to the pre-made hats, we had quite a few user made hats.  The spec for the hat port was “leaked” a few weeks before the con to allow people to make their own accessories.  People like it so much we’re almost going to have to do it again soon!
 
-![user made hats](https://blinkylights.ninja/wp-content/uploads/2016/08/2016-08-06-19-04-54.jpg)
+![user made hats](media/2016-08-06-19-04-54.jpg)
 
 ## Support Boards
 
@@ -84,13 +84,13 @@ In order to capitalize on a steampunk/ cyberpunk look, we decided to go with cle
 
 The second problem is “natural” traces are a complete pain to create.  The PCB design software we use has interactive routing and active DRC when routing with “normal” traces.  Not so with “natural” traces.  Those are actually edge defined arcs, carefully sculpted and planned to look great and also be functional.  It was ruinously time consuming, but very fulfilling.
 
-![hand drawn traces](https://blinkylights.ninja/wp-content/uploads/2016/08/traces.png)
+![hand drawn traces](media/traces.png)
 
 In our never-ending quest for battery life, we had a realization.  When trying to decide between two or three batteries, it was discovered that switching to three would actually reduce the overall capacity.  This is because with two batteries the voltage varies between 3.2VDC and 1.9VDC.  With that range, a boost regulator can be used to reach our desired 3.3VDC.  However, with three batteries, you voltage range is more like 4.8VDC to 2.85VDC, which is out of range for a boost regulator.  If using an LDO, even the best requires at least 0.1VDC difference between the input and the output, meaning about half of the batteries capacity, that below around 1.2VDC/cell, cannot be utilized.  The boost regulator, however, is good to 0.5VDC, or around 0.25VDC/cell.  At this voltage the batteries are all but guaranteed to be exhausted when the regulator drops out, leading to almost 100% capacity utilization.  Neat!
 
 One of the biggest challenges facing me this year was the number of board designs we were dealing with.  Including the main badge, we had seven boards designed for this year.  That is a lot of design files and BOMs to keep track of.  Also, while I am usually sitting around taking a break between sending the board to fab and Defcon, this year I was still designing up until a week before the con.  Yes.  I am whining.
 
-![support boards](./QC13SupportBoards.png)
+![support boards](media/QC13SupportBoards.png)
 
 ## Fabrication Issues
 
@@ -102,7 +102,7 @@ Code Brown.
 
 Turns out one of their engineers decided our pick-and-place files were incorrect and modified them without any interaction with us (the customer) or their head office.  We never got confirmation, but we suspect this caused a number of LEDs to be incorrect on 100% of the boards.
 
-![message from fab](https://blinkylights.ninja/wp-content/uploads/2016/08/fab-oops1.png)
+![message from fab](media/fab-oops1.png)
 
 We overnighted them a programmer and test code, the same programmer and test code they said they didn’t want two months ago, and they used that to flash test code into the badges and rework them as needed.  After they got the tester, the badges were out the door in a day and in our hands the next.
 
@@ -128,6 +128,6 @@ Eric Evanchick at Hack-a-Day [posted a great write up](http://hackaday.com/2016/
 
 Queercon, including the badges, was also featured in [Gay Vegas](https://issuu.com/gayvegas/docs/gayvegasmagazine2016sept/6).  Pretty exciting!  One again my “press photos” made an appearance.  I really like that table…
 
-![QC14 badge assembly party](https://i0.wp.com/blinkylights.ninja/wp-content/uploads/2016/08/qc20160003.jpg)
+![QC14 badge assembly party](media/qc20160003.jpg)
 
-![prototypes](https://i0.wp.com/blinkylights.ninja/wp-content/uploads/2016/08/2016-07-20-23-11-47.jpg)
+![prototypes](media/2016-07-20-23-11-47.jpg)

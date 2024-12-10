@@ -1,4 +1,4 @@
-![](https://blinkylights.ninja/wp-content/uploads/2015/06/clouds1-e1435536402265.png)
+![](media/clouds.png)
 
 # 2015 Queercon 12 - DEF CON 23
 
@@ -6,7 +6,7 @@ For the 2015 Queercon, we’ve tried to build on the successes and learning of t
 
 The user interacts with the badge via the three buttons on the face, which control the menus and interactions with a pseudo-random character shown on a 0.96″ SMT OLED display.  Five high power RGB LEDs mounted on the edge of the board provide additional feedback for actions and help to indicate the “mood” of the character.  The left and right buttons almost always scroll options to the left and right.  The middle button acts as a “soft key” whose function is indicated on the bottom of the screen.
 
-![Black and white QC12 badges](https://blinkylights.ninja/wp-content/uploads/2015/08/dsc_3067-edit.jpg)
+![Black and white QC12 badges](media/dsc_3067-edit.jpg)
 
 As with previous years, badges can interact with each other via a 915MHz HopeRF radio module, as per our apparent norm.  This year, however, explicit pairing between badges is accomplished via menu options and the radio, rather than the IR module of last year.  The brains of the operation comes from a MSP430FR59, with 64K of FRAM to avoid some of the memory problems of last year.  An additional flash chip was included, but not used.
 
@@ -24,7 +24,7 @@ Other features included the ability to “play” with other badges (basically j
 
 ## Supporting Hardware
 
-![Prototype](https://blinkylights.ninja/wp-content/uploads/2015/08/2015-07-21-20-25-31.jpg)
+![Prototype](media/breadboard.jpg)
 
 We also had many, many support boards this year.  We started in late 2014 with a display development board to help us choose displays.  We also created a tester board to test the ribbon cables, and this year created a completely custom basestation, which handled check-ins and flag unlocking, that included some… special hardware.
 
@@ -38,7 +38,7 @@ Lastly, connecting the boards together was surprisingly hard.  In my mind, initi
 
 We ended up with the ribbon cable because it was by far the cheapest option that provided everything we needed.  Keystone, who we have long used for our battery packs, made a good line of snap-in plastic standoffs with which we could cheaply connect and support the two boards.  Thus the QC12 badge was born!
 
-![Assembly](https://blinkylights.ninja/wp-content/uploads/2015/08/2015-07-21-21-20-29.jpg)
+![Assembly](media/2015Assembly.jpg)
 
 ## Field Issues
 
@@ -54,7 +54,7 @@ We had one early success with the badge: 5% initial failure rate with 86% succes
 
 Overall at the con, the badges went over well.  Many badge holders reported being stopped in the halls and asked about the badge.  As always, they were in high demand but managed to strike a balance between availability and exclusivity.
 
-![Panelized Boards](https://blinkylights.ninja/wp-content/uploads/2015/08/34934-2_1024.png)
+![Panelized Boards](media/2015Panel.png)
 
 ## Press
 
@@ -70,4 +70,4 @@ Hackaday also did an excellent [write-up of all of the “elite” badges of Def
 
 We also had a ton of tweets and facebook posts about the badges, which was really cool to see.
 
-![lit up badges](https://i0.wp.com/blinkylights.ninja/wp-content/uploads/2015/08/2015-08-08-21-24-47.jpg)
+![lit up badges](media/fieldphoto.jpg)

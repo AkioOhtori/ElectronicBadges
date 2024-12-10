@@ -1,4 +1,4 @@
-![QC15 uber badge](https://blinkylights.ninja/wp-content/uploads/2018/08/image-3.png)
+![QC15 uber badge](media/uber.png)
 
 # 2018 Queercon 15 - DEF CON 26
 
@@ -14,7 +14,7 @@ At the same time, we were also contemplating utilizing the now plentiful and inc
 
 I say all that to say those two ideas paired together led us to where we are now.  Active bottom board, passive top boards with various different designs, and something cool in the middle.
 
-![badge middle exposed](https://blinkylights.ninja/wp-content/uploads/2018/08/image.png)
+![badge middle exposed](media/screentext.png)
 
 ## Bottom Boards and Hardware
 
@@ -32,7 +32,7 @@ However, in the end, we ended up with the designs you see before you.  This was 
 
 In the end, the eight designs you see were all we ended up with.  Design credit goes to Aaron [(@mrtwinkletwink)](https://twitter.com/mrtwinkletwink) who we brought in when it was pretty clear we were fucking this up and he was killing it.  Seriously, go have a look at this guy’s designs.  They’re phenomenal.  Happy to have him contribute and I would be shocked (and a bit disappointed) if this were the last time we utilized his talents on the Queercon badge.
 
-![all top boards](https://blinkylights.ninja/wp-content/uploads/2018/08/img_20180719_112630221_hdr-e1533583963988.jpg)
+![all top boards](media/tops.jpg)
 
 The designs themselves were made using only normal PCB manufacturing processes.  In fact, he didn’t even use silkscreen!  I cannot swoon enough about these.
 
@@ -46,7 +46,7 @@ In our postmortem it was indicated that while these were “better than nothing�
 
 Mid-boards were originally going to be standoffs, much like the Queercon 12 Tamagotchis, but ultimately we decided it would be even cooler to use cut acrylic as a standoff.  This was made much easier with the discovery of Keystone Electronics’ threaded, surface mount standoffs.  Like the rotoconnects of 2017, these were a game changer in terms of new possibilities, enabling us to mechanically connect things to our badges using screws without having to pay for extra processes or deal with additional hardware.
 
-![stack of mids](https://blinkylights.ninja/wp-content/uploads/2018/08/image-from-ios.jpg)
+![stack of mids](media/midstack.jpg)
 
 The actual acrylic cutting was done by Andrew (@Six_Volts) and his wife Ali using a Dallas maker space local to him.  He managed to cut all the required pieces out of just two sheets of acrylic.  The process was time-consuming and annoying, but we’re glad he did it.  He was even nice enough to drive them up from Dallas personally for our annual testing and assembly party.
 
@@ -78,7 +78,7 @@ Overall we were really happy with the result.  The assembler was easy to work wi
 
 All 10 boxes.
 
-![shipping boxes](https://blinkylights.ninja/wp-content/uploads/2018/08/2018-07-26-21-17-31.jpg)
+![shipping boxes](media/unpacking.jpg)
 
 As previously mentioned, given the scarcity of badges last year, we decided to increase production this year to 450 electronic and over 900 non-electronic badges.  This led to a lot of problems we’d not experienced before now.  Like, for example, how to store, test, and ship ten boxes of PCBs.  Or how freaking heavy 1000+ 3×6.7″ un-assembled PCBs are.
 
@@ -88,7 +88,7 @@ UPS looooooved us.
 
 We did not love them, as they managed to mangle 40 badges in shipping.
 
-![damaged shipping box](https://blinkylights.ninja/wp-content/uploads/2018/08/image-from-ios1-e1534436184475.jpg)
+![damaged shipping box](media/damagedshipping.jpg)
 
 We've learned a lot about shipping and packaging since and because of this badge.
 
@@ -104,7 +104,7 @@ Long story short, we discovered that the radios didn’t appreciate having been 
 
 Luckily George, with help from a different Andrew, devised a way for the badges to “self-calibrate” which seemed to bring about 90% of them in step.  Only time will tell how it ends up.
 
-![solder party](https://blinkylights.ninja/wp-content/uploads/2018/08/2018-07-28-20-27-33.jpg)
+![solder party](media/assemblyparty.jpg)
 
 
 The second assembly party went really well.  All we needed to do was program the production code and calibrate the radios.  About 200 badges in we called a halt because a replacement program slave participant didn’t get the calibration memo.  He’d just started, so we proceeded to roll back the badges he’d programmed and check their calibration.  It was at this time we also realized a good number of these badges thought they were Badge #000, which they were not.

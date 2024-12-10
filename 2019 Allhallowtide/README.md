@@ -1,4 +1,4 @@
-![alt text](https://blinkylights.ninja/wp-content/uploads/2019/10/dsc_7842-edit.jpg)
+![assembled boards in a tray](media/stacks.jpg)
 
 # ALLHALLOWTIDE 2019
 
@@ -18,4 +18,4 @@ Functiality is pretty simple.  In idle, the badge just looks cool, cycling throu
 
 Overall we’re really happy with how the badge turned out and happy to have it in our design bandoleer.
 
-![badge back](https://i0.wp.com/blinkylights.ninja/wp-content/uploads/2019/10/dsc_7867-edit.jpg)
+![badge back](media/badge.jpg)

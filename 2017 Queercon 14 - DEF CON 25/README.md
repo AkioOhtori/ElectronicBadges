@@ -1,4 +1,4 @@
-![close up](https://blinkylights.ninja/wp-content/uploads/2017/03/qc20170035_banner.jpg)
+![close up](media/qc20170035_banner.jpg)
 
 # 2017 Queercon 14 - DEF CON 25
 
@@ -16,7 +16,7 @@ Nothing worth doing is easy and in the end, we ended up with one of our best bad
 
 The “failsafe” design was meant to be exactly what we like to see at Queercon: lots of blinky LEDs with some cool connectivity and interoperability.  The original concept was to utilize parts already in the bin to minimize risk and development time.  We had the LEDs from Blooper which were inexpensive, bright, and pretty easy on power.  We had also toyed with the use of rotoconnect board-to-board connectors for a several years, but due to size and cost they’d never made it into a design.
 
-![QC14 uber badge](https://blinkylights.ninja/wp-content/uploads/2017/03/qc20170028.jpg)
+![QC14 uber badge](media/qc20170028.jpg)
 
 Combining those two elements into a design, an idea was hatched.  Let’s make a badge that can connect to more than one peer at a time and has an expensive looking, vibrant RGB LED display.  What will it do?  Doesn’t matter!  Stuff!
 
@@ -24,7 +24,7 @@ In case you’ve been under a rock for the last ten years, visually, we borrowed
 
 ## Hardware
 
-!(close up of LEDs](https://blinkylights.ninja/wp-content/uploads/2017/03/qc20170035.jpg)
+!(close up of LEDs](media/qc20170035.jpg)
 
 ### LEDs
 
@@ -32,19 +32,19 @@ The LEDs are a simple 20mA per channel, 0604 packaged RGB LED sourced directly f
 
 ### Connector
 
-![mating connector](https://blinkylights.ninja/wp-content/uploads/2017/03/qc20170031.jpg)
+![mating connector](media/qc20170031.jpg)
 
 The other major hardware feature was the edge connectors, again, mentioned above.  Two things make these really stand out: their genderless mating and their range of motion.  The first is unusual, but fairly self-explanatory.  Essentially they’re only sold with even numbers of pins and those pins effectively alternate between male and female.  When a connector is presented with another, they mate because of this alternating pattern.  It is very nifty.  The range of motion is a product of the construction, but it allows almost 180 degrees of rotation while maintaining electrical connectivity.  This allowed us to get to our party piece…
 
 The Cube.
 
-![badges connected as a cube](https://blinkylights.ninja/wp-content/uploads/2017/03/qc20170036.jpg)
+![badges connected as a cube](media/qc20170036.jpg)
 
 We weren’t sure how long it would take people to figure it out, and how they would react. Ultimately, we saw more large fabrics than we did cubes and, weirdly, no advanced shapes.
 
 Unfortunately, due to a software glitch (one of the few!) creating the cube and ensuring good communication between all six badges (twelve connections) did not produce any result other than looking completely awesome.  Truth be told, the only effect was supposed to be a third heart animation, but we think, in retrospect, two is plenty.
 
-![cube in real life](https://blinkylights.ninja/wp-content/uploads/2017/03/2017-07-31-01-04-55.jpg)
+![cube in real life](media/fieldcube.jpg)
 
 ### CPU
 
@@ -58,7 +58,7 @@ The LED driver was the same unit seen in previous years.  We did originally spec
 
 Speaking of battery life, shout out to Skyworks!  We’ve been using their excellent little boost regulator for several years now and this year it really killed it.  Most attendees made it the entire con without changing batteries or only having to change them on Sunday.  Impressive considering all 219 channels on simultaneously at max current would draw 4380mA, which, luckily, wasn’t possible with our setup.  Still, at max brightness we could be pulling as much as 900mA! We’ve come a long way from QC10!
 
-![voltage regulator](https://blinkylights.ninja/wp-content/uploads/2017/03/qc20170033.jpg)
+![voltage regulator](media/qc20170033.jpg)
 
 Aside from the compressed timeline, this year was pretty breezy from a design standpoint.  The largest challenge I faced was the sheer quantity of LEDs.  I know I say that every year, but every year we increase the complexity by a significant margin.  No really!  Here is a table!
 
@@ -80,7 +80,7 @@ This year was unusual in that I had almost no idea what the badges were going to
 
 The brain-child of our UI/UX/graphics designer, Jonathan, the primary user interaction for QC2017 was loosely based on a game called “Alchemy”.  The idea is users are given a set of basic elements (air, fire, water, earth) and are set to combine them into more complicated elements.  For example, water plus fire made beer.  Yes, beer is an element. Don't fight it.
 
-![element chart](https://blinkylights.ninja/wp-content/uploads/2017/03/map.png)
+![element chart](media/map.png)
 
 Players are only allowed to have five elements at a time, so every time a new one is made, the old combined element is replaced.  This required a lot of user interaction as a total of seven badges are required to complete the game.
 
@@ -96,7 +96,7 @@ Failures in the field were few and far between as well.  We had one gentleman ri
 
 We did, however, have a rash of failed CPUs.  We assume ESD, but have no way of confirming.  For us, this pretty much kills QFN and BGA parts for us, as field rework on the fine pitch QFN CPU was a too fiddly to be done half-drunk (or fully, whatever) in a dimly lit hotel room.
 
-![back of badge](https://blinkylights.ninja/wp-content/uploads/2017/03/qc20170026.jpg)
+![back of badge](media/qc20170026.jpg)
 
 One unexpected field problem was due to some hardware I wasn’t expecting to have a problem with: the user.  While in previous years the badge connection (“mating”) was mostly consensual, this year we heard reports of people being a little too aggressive and impersonal in pursuit of completing the game.  While we enjoyed that people we really getting in to the game, we were bummed to hear that the facilitation of social interaction devolved into taking what they wanted.  This will be considered on future designs.
 
@@ -104,7 +104,7 @@ Another unexpected failure was quantity.  For QC13 we produced 250 badges and fe
 
 But, again, the hardware failures were rare, unlike last year, and overall we’re very pleased.
 
-![cube close up](https://blinkylights.ninja/wp-content/uploads/2017/03/qc20170037.jpg)
+![cube close up](media/qc20170037.jpg)
 
 ## Conclusion
 
@@ -112,4 +112,4 @@ Overall, I am very pleased with how everything turned out.  The game was engagin
 
 Too bad Defcon is cancelled.
 
-![badge fabric](https://i0.wp.com/blinkylights.ninja/wp-content/uploads/2017/03/2017-07-23-13-26-39.jpg)
+![badge fabric](media/multipair.jpg)

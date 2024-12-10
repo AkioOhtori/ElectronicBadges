@@ -1,4 +1,4 @@
-![QC 10 Badge](https://i0.wp.com/blinkylights.ninja/wp-content/uploads/2015/06/dsc_2995-edit.jpg)
+![QC 10 Badge](media/dsc_2995-edit.jpg)
 
 # 2013 Queercon 10 - DEF CON 21
 
@@ -6,7 +6,7 @@ Due to drunkness in 2012, 2013 saw the birth of the Queercon 10 badge.  For the 
 
 The QC10 badge used at Atmel Atmega microprocessor, TI PWM LED driver, and HopeRF 433 MHz wireless module, and a Maxim 22db fixed gain microphone amplifier to create a colorful, interactive badge.  The had two concentric rings of rainbow LEDs used to indicate badge “score,” indicate when a new badge is seen, and generally just look pretty.  The badge keeps track of how many other badges are in range via the HopeRF module and gets happy any time is sees a new badge in its circle.  A RGB LED inidcates how many badges are in range by beating faster and moving up the rainbow in color, starting with red and ending in purple.
 
-![OG Queercon Badge](https://blinkylights.ninja/wp-content/uploads/2015/06/img_20130718_093932.jpg)
+![OG Queercon Badge](media/img_20130718_093932.jpg)
 
 Each badge owner gets “points” for seeing badges and seeing the unique Uber badges. The more unique badges seen the more of the rainbow LEDs light up when displaying this score and Uber score.  There were 10 Uber badges available, one for each member of the organizing team.  These badges were visually distinct as they were constantly using their LEDs to show off.  This increased battery consumption, but was totally worth it.
 
@@ -16,7 +16,7 @@ The badges were handed out for free at the Queercon mixers and events.  They imm
 
 ## Challenges
 
-![Bench testing badges](https://blinkylights.ninja/wp-content/uploads/2015/06/img_20130728_215341.jpg)
+![Bench testing badges](media/img_20130728_215341.jpg)
 
 The largest challenge of the QC10 badge was getting it done on time.  We did not anticipate the level of work that would go into something like then and were a little (read: very) caught off guard.  That said, I locked myself in my office for a few weeks and got the thing churned out.
 
@@ -39,4 +39,4 @@ One of the thing I did not anticipate and was truly touched by what this badge m
 
 > “The badges were absolute genius in getting people to interact, and I’m looking forward to learning more about how it works in the coming weeks.” -M
 
-![QC10 reactions](https://blinkylights.ninja/wp-content/uploads/2015/06/queercon-win_censored.png)
+![QC10 reactions](media/queercon-win_censored.png)

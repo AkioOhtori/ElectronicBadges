@@ -1,4 +1,4 @@
-![QC11 Badge](https://blinkylights.ninja/wp-content/uploads/2015/06/936665_10201748535588977_3089339911531122075_n.jpg)
+![QC11 Badge](media/sharing.jpg)
 
 # 2014 Queercon 11 - DEF CON 22 Badge
 
@@ -12,7 +12,8 @@ The badge was a huge success and was in extremely high demand at the conference.
 
 One of the organizers posted a really good write up over on the [main Queercon site](https://web.archive.org/web/20140818132249/http://www.queercon.org/queercon-badge/queercon-11-readme/), explaining a lot of the software features and their interaction with the hardware.
 
-![QC11 Badge](https://blinkylights.ninja/wp-content/uploads/2015/06/dsc_2993-edit.jpg)
+![QC11 Badge](media/dsc_2993-edit.jpg)
+![QC11 Badge Uber](media/DSC_3001-EDIT.jpg)
 
 ## Challenges
 
@@ -22,7 +23,7 @@ Another big challenge we faced was production costs!  For QC10 we went with an C
 
 Lastly, we had a minor hickup with the IR modules.  Uber badge holders received their badges early and we noticed that the IR modules kept flying off!  Of the 12 Uber badges passed out two didn’t have their IR modules knocked off in the first day.  Solution?  Emergency trip to Fry’s for superglue gel.  We smeared it on all of the IR modules where they attached to the board and BAM!  We only lost one more unit!  Very cool!
 
-![CAD view of QC11 badge](https://blinkylights.ninja/wp-content/uploads/2015/06/top2d.png)
+![CAD view of QC11 badge](media/top2d.png)
 
 ## Lessons Learned
 
@@ -43,4 +44,4 @@ Last but certainly not least we got a write up by [Eric Evennchick in Hackaday](
 
 > “The badge was awesome, it’s the second year running they’ve had badges that effectively reward socializing, whilst still allowing for hardware hacking for those that know how, which is exactly what a badge at a conference like Defcon should do! This year’s Defcon badges tried to do that a little (they had patterns and the goon badges could control the human badges), but nowhere near as fun or pleasing as the little stick figures waving to each other this year! Last year I didn’t know how they could top the badge, but they did. This year, I still don’t know, but I’m looking forward to finding out!” -Mike
 
-![Badge reader](https://blinkylights.ninja/wp-content/uploads/2015/06/10544324_10203960842597343_5705125254139128997_n.jpg)
+![Badge reader](media/reader.jpg)
